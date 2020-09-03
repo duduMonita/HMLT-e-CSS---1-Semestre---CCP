@@ -1,0 +1,196 @@
+html {
+    background-color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size:10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    width:100%;
+    margin:0px auto;
+}
+
+p{
+    font-size: 1.5em;
+    text-align: justify;
+    text-indent: 5em;
+    margin:0;
+}
+
+img {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+header {
+    width: 100%;
+    height: 18.75%;
+    background-color: black;
+    /*box-shadow: inset 0px 0px 10px green;*/
+    position: absolute; top: 0; left: 0;
+}
+
+header .logo {
+    width: 7.5%;
+    height: 80%;
+    float: left;
+    padding: 0.75%;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+header .logo_texto {
+    width: 40%;
+    height:80%;
+    float: left;
+    padding: 0.75%;
+    position: relative;
+}
+
+.logo_texto p {
+    color:white;
+    font-size: 4em;
+    text-indent: 0;
+    margin-top: 2%;
+    font-style: italic;
+    text-align: justify;
+    padding: 3% 5% 2.5% 7%;
+}
+
+.logo_texto p span{
+    color:#04B431;
+}
+
+header .contato {
+    width: 40%;
+    height:80%;
+    float: right;
+    padding: 0px;
+    position: relative;
+}
+
+.contato a p{
+    font-size: 1.8em;
+    color: #585858;
+    text-align: right;
+    margin: 0px;
+    padding: 3% 0% 0% 3%;
+}
+
+.contato a p:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.contato img {
+    width: 5%;
+    height: 30%;
+    background-color: black;
+    border-radius: 100%;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.faixa {
+    background-color: green;
+    width: 100%;
+    height: 35%;
+    box-shadow: inset 0px 0px 10px black;
+    position: absolute; top: 120px; left: 0;
+}
+
+.faixa a p{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    text-indent: 0;
+    box-shadow: 0px 0px 5px black;
+}
+
+.bHome {
+    width: 10%;
+    height: 60%;
+    margin: 0.65% 0 0 35%;
+    float: left;
+    position: relative;
+}
+
+.bHome:hover {
+    background-color: #005a00
+}
+
+.bSaibaM {
+    width: 14%;
+    height: 60%;
+    margin: 0.65% 35% 0 0;
+    float: right;
+    position: relative;
+}
+
+.bSaibaM:hover {
+    background-color: #005a00;
+}
+
+.janela1 {
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 190px;
+    position: relative;
+}
+
+.janela1 h2 {
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: -4px;
+    word-spacing: -10px;
+    padding-top: 30px;
+}
+
+.janela2 {
+    width: 960px;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.janela2 .divisoria {
+    text-align: center;
+}
+
+.janela2 h2 {
+    font-size: 2.5em;
+}
+
+.veja_tambem {
+    height: 400px;
+    margin: 0px auto;
+    background-color: #E5E5E5;
+    position: relative;
+    margin-top: -10px;
+}
+
+footer {
+    width:100%;
+    height: 80px;
+    background-color: black;
+    position: relative;
+    clear: both;
+    margin: 0;
+}
+
+footer p {
+    color: white;
+    padding: 30px 0 0 0;
+}

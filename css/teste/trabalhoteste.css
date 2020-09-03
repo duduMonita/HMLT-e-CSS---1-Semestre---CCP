@@ -1,0 +1,140 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	color: #333;
+}
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*grid 960px*/
+.linha{
+	width: 960px;
+	overflow: auto;
+	margin: 0 auto;
+	padding: 5px 0;
+	
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+
+.col1{
+	width: 60px;	/*diminui 20 px, pois acima o padding encobre 10px da direita e da esquerda */
+}
+.col2{
+	width: 140px;
+}
+.col3{
+	width: 240px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px;
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+/* css reutilizável */
+.sem-marcador{
+	list-style: none;
+}
+.sem-padding{
+	padding: 0 !important;
+}
+.sem-margin{
+	margin:0 !important;
+}
+ul.inline li, ol.inline li{
+	display: inline;
+	margin-right: 20px;
+}
+ul.center, ol.center{
+	margin-left:250px;
+}
+
+}
+ul.inline li:last-child,ol.inline li:last-child{
+	margin-right: 0;
+}
+.logo a{
+	color: #111;
+	letter-spacing: -1px;
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0 5px;
+
+}
+p{
+	font-size: 22px;
+}
+span{
+	font-size: 30px;
+	color: #008B8B;
+}
+
+/* layout */
+.header{
+	background:#008B8B;
+}
+.nav{
+
+	box-shadow: 0 5px 6px #7FFFD4;
+}
+
+ul.menu li a, ol.menu li a{
+	color: #2F4F4F;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+ul.menu li a:hover,ol.menu li a:hover{
+	background-color: #111;
+	color: #7FFFD4;
+}
+img{
+	margin:10px 0 10px 0;
+	max-width: 100%;
+	max-height: auto;
+}
+.format{
+	width: 960px;
+}
+.conteudo-extra{
+	background: #008B8B;
+}
+.discreto{
+	text-align: center;
+	padding: 5px 0;
+	font-size: 16px;
+}
+.contato{
+	width: 20px;
+	height: 20px;
+	padding: -5px 0;
+}

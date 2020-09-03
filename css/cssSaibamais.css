@@ -1,0 +1,190 @@
+html {
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size:10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    width:100%;
+    margin:0px auto;
+}
+
+p{
+    text-align: justify;
+    text-indent: 5em;
+    margin:0;
+}
+
+header {
+    width: 100%;
+    height: 18.75%;
+    background-color: black;
+    /*box-shadow: inset 0px 0px 10px green;*/
+    position: absolute; top: 0; left: 0;
+}
+
+header .logo {
+    width: 7.5%;
+    height: 80%;
+    float: left;
+    padding: 0.75%;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+header .logo_texto {
+    width: 40%;
+    height:80%;
+    float: left;
+    padding: 0.75%;
+    position: relative;
+}
+
+.logo_texto p {
+    color:white;
+    font-size:1.7em;
+    margin:0px;
+    font-style: italic;
+    text-align:justify;
+    padding: 3% 5% 2.5% 2%;
+}
+
+header .contato {
+    width: 40%;
+    height:80%;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.contato a p{
+    font-size: 1.8em;
+    color: #585858;
+    text-align: right;
+    margin: 0px;
+    padding: 3% 0% 0% 3%;
+}
+
+.contato a p:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.contato img {
+    width: 5%;
+    height: 30%;
+    background-color: black;
+    border-radius: 100%;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.faixa {
+    background-color: #0077FF;
+    width: 100%;
+    height: 35%;
+    box-shadow: inset 0px 0px 10px black;
+    position: absolute; top: 120px; left: 0;
+}
+
+.faixa a p{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    text-indent: 0;
+    box-shadow: 0px 0px 5px black;
+}
+
+.bHome {
+    width: 10%;
+    height: 60%;
+    margin: 0.55% 0 0 35%;
+    float: left;
+    position: relative;
+    border: solid 2px white;
+}
+
+.bHome:hover {
+    background-color: #0055FF
+}
+
+.bSaibaM {
+    width: 14%;
+    height: 60%;
+    margin: 0.55% 35% 0 0;
+    float: right;
+    position: relative;
+    border: solid 2px white;
+}
+
+.bSaibaM:hover {
+    background-color: #0055FF;
+}
+
+.janela1 {
+    float: left;
+    height: 470px;
+    width: 25px;
+    position: relative;
+    margin-top: 163px;
+    z-index: 2;
+}
+
+.janela1 a input {
+    width: 25px;
+    height: 76px;
+    margin-top: 70px;
+    background-color: #0077FF;
+    border-color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.janela1 a input:hover {
+    background-color: #0055FF;
+    border-color: white;
+}
+
+.janela2 {
+    float: left;
+    height: 470px;
+    width: 320px;
+    position: relative;
+    margin-top: 163px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.janela2 a p{
+    color: white;
+    font-size: 2.2em;
+    text-indent: 0;
+    padding: 15px;
+    margin-top: 83px;
+}
+
+.janela3 {
+    float: right;
+    height: 470px;
+    width: auto;
+    position: absolute;
+    top: 163px;
+    
+}
+
+.janela3 img {
+    width: 132.5%;
+    height: 470px;
+}

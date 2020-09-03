@@ -1,0 +1,177 @@
+body {
+    background: black;
+    margin-left: 0;
+    margin-right: 0;
+}
+main{
+    width: 100%;
+    height: 100px;
+    background-color:;
+}
+header {
+    width: 100%;
+    height: 120px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 10px,10px;
+    float: left;
+    border-radius: 100%
+}
+.logo_espaço {
+    width: auto;
+    height: 100px;
+    background-color:;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.barra_verde {
+    width: 100%;
+    height: 5px;
+    background-color: #04B431;
+    margin-top: 10px;
+    box-shadow: inset -2px -1.5px 3px #003;
+    float: right;
+}
+.contato{
+    float:right;
+    width: 700px;
+    height: 100px;
+    background-color: black;
+    margin-right: 10px;
+}
+.contato ul li a{
+    text-decoration: none;
+}
+.contato ul li a p{
+    font-size: 20px;
+    font-family: monospace;
+    color: #585858;
+    text-align: right;
+}
+.contato ul li a p:hover{
+    color: white;
+    text-decoration: underline;
+}
+.foto_contato {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 100%;
+}
+.links {
+    width: 25px;
+    height:  520px;
+    background-color:;
+    position: fixed;
+}
+.links2 {
+    float:left;
+    width: 199px;
+    height: 520px;
+    position:relative;
+    margin-right:;
+}
+.imagem {
+    width: 1150px;  
+    height: 530px;
+    background-color:white;
+    float: right;
+}
+.imagem a{
+    position: absolute;
+    width: 375px;
+    height: 70px;
+    right: 141px;
+    top: 480px;
+    background-color: #5DF15D;
+    border-radius: 10%;
+    text-decoration: none;
+    /*#32CD32 cor ver forte;*/
+}
+.imagem a p{
+    font-size: 40px;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    margin-top: 11px
+}
+.imagem a p:hover {
+    color: black;
+}
+.saiba_mais {
+    width: 375px;
+    height: 70px;
+    border-radius: 10%;
+}
+.conteúdo_home {
+    float: right;
+    width: 1150px;
+    height: 530px;
+}
+.espaçamento {
+    width: 1350;
+    height: auto;
+    float: right;
+    background-color: black;
+}
+.button {
+    width: 15px;
+    height: 75px;
+    background-color: #04B431;
+    border-radius: 5%;
+    border-color: #04B431;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+.espaço_button {
+    width: 25px;
+    height: 100px;
+}
+.título {
+    color:white;
+    font-size: 45px;
+    text-decoration: none;
+    font-family:monospace;
+}
+.espaço_título {
+    float:right;
+    width: auto;
+    height: 100px;
+}
+.juntos{
+    width:450px;
+    float: left;
+}
+.links2 a p {
+    font-size: 20px;
+    text-align: ;
+    color: #585858;
+    font-family: monospace;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 25px;
+}
+.links2 a p:hover {
+    color:white;
+}
+.links2 a {
+    text-decoration:none;
+}
+.l1 {
+    margin-top: 15px; 
+}
+.l2 {
+    margin-top: 25px;
+}
+.l3 {
+    margin-top: 25px;
+}
+.l4 {
+    margin-top: 25px;
+}
+.l5 {
+    margin-top: 20px;
+}
